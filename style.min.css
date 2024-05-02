@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+.navbar {
+    background-color: black !important
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    padding: 0
+}
+
+.navbar .navbar-brand {
+    font-weight: 700;
+    letter-spacing: 6%;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px
+}
+
+.navbar .navbar-nav .nav-link {
+    font-weight: lighter;
+    text-align: center;
+    margin-right: 30px;
+    font-size: 20px
+}
+
+.navbar .social-icons .fa {
+    margin-right: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer
+}
+
+#banner {
+    width: auto;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.4) url("./img/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-blend-mode: darken
+}
+
+#banner .left-banner,
+#banner .right-banner {
+    color: #fff;
+    letter-spacing: 9%;
+    padding-left: 7%;
+    width: auto
+}
+
+#banner .left-banner {
+    padding-top: 100px;
+    color: #fff;
+    font-family: "Quattrocento", serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10px
+}
+
+#banner .left-banner .line {
+    width: 460px;
+    height: 1px;
+    border-top: 10px solid #f24c4c;
+    align-self: center;
+    margin-top: 30px
+}
+
+#banner .right-banner {
+    margin-top: 30px;
+    color: #fff;
+    font-family: "Ruda", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word
+}
+
+#about .about-title {
+    font-family: "Quattrocento", serif;
+    font-size: 30px;
+    font-weight: 400
+}
+
+#about .about-title .line {
+    border-bottom: 7px solid #b62828;
+    align-self: center
+}
+
+#about .left-about .line {
+    border-bottom: 4px solid #b62828;
+    width: 360px;
+    margin-bottom: 10px
+}
+
+#about .left-about .about-text {
+    letter-spacing: 20%;
+    font-family: "Ruda", serif;
+    font-size: 20px;
+    font-weight: 400
+}
+
+#about .right-about {
+    background-image: url("./img/about-us.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    border-radius: 10px
+}
